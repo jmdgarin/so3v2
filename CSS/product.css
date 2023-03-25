@@ -1,0 +1,49 @@
+#ruler{
+    margin-top: 200px;
+}
+
+#pr1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color:rgb(14,44,37);
+}
+
+#pr1 h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color:rgb(14,44,37);
+    text-align: justify;
+}
+
+#pr1 h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-align: justify;
+}
+
+#pr1 i{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+
+    text-align: justify;
+}
+
+#pr1 h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+#pr1 button{
+    height: 40px;
+    width: 70;
+    background-color: rgb(19, 82, 67);
+    color: white;
+    font-weight: 600;
+    border-style:double;
+}
+
+#pr1 button:hover{
+    background-color: rgb(62,89,98);
+    transition: 0.5s; 
+}
