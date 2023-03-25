@@ -3,7 +3,9 @@ body{
 }
 
 
+
 /* navbar css */
+
 .navbar{
     background-color: rgb(62,89,98);
     font-family: 'Times New Roman', Times, serif;
@@ -18,9 +20,12 @@ body{
     font-weight: 500;
 
 }
+
 .btn0:hover{
 background-color:rgb(13, 43, 36);
+color: white;
 }
+
 .ft-rule{
     
     height: 1px;
@@ -32,11 +37,11 @@ background-color:rgb(13, 43, 36);
 }
 
 .navbar-light .navbar-brand{
-        color: #fff;
-        font-size: 25px;
-        text-transform:uppercase;
-        font-weight: 700;
-        letter-spacing: 2px;   
+    color: #fff;
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;   
 }
 
 
@@ -80,6 +85,7 @@ background-color:rgb(13, 43, 36);
 
 
  /* carousel */
+
 .carousel-inner{
     margin-top: 90px;
 }
@@ -98,7 +104,6 @@ background-color:rgb(13, 43, 36);
     font-family:'Times New Roman', Times, serif;
 }
 
-
 .bt5:hover{
         background-color: rgb(62,89,98);
         transition: 0.5s; 
@@ -114,13 +119,10 @@ background-color:rgb(13, 43, 36);
 
 
 
-
-
-
 /* product */
 
 .product{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .product img{
@@ -132,54 +134,70 @@ background-color:rgb(13, 43, 36);
     font-weight: 1000;
     color:rgb(14,44,37) ;
     font-family: 'Times New Roman', Times, serif;
+}
 
+.product .noted{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px
 }
 
 .product h6{
-    font-weight: 300;
+    color:rgb(14,44,37) ;
+    font-weight: 500;
 }
 .product p{
+    
+    font-size: larger;
+    font-weight: 400;
+}
+
+.product button{
+    height: 40px;
+    width: 70;
+    background-color: rgb(19, 82, 67);
+    color: white;
+    font-weight: 600;
+    border-style:double;
+}
+
+.product button:hover{
+    background-color: rgb(62,89,98);
+    transition: 0.5s; 
+
+}
+
+.product .searchbtn{
+    margin-top: 40px;
+    height: 40px;
+    width: 70;
+    background-color: rgb(19, 82, 67);
+    color: white;
+    font-weight: 600;
+    border-style:double;
+    border-radius: 10px;
+}
+
+
+/* Blog section */
+
+#blogsection{
+    margin-top: 210px;
+}
+
+#blogsection h6{
+    font-weight: 900;
     color:rgb(14,44,37) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
-.btn1{
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: black;
-    color: white;
+#blogsection h5{
     font-weight: 600;
-    border-radius: 20px;
-}
-.btn1:hover{
-    background-color: rgb(58, 56, 56);
-    transition: 0.5s; 
-}
-
-.bt1{
-    margin-top: 20px;
-    height: 45px;
-    width: 20%;
-    border: none;
-    outline: none;
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 20px;
-
-}
-
-.bt1:hover{
-    background-color: rgb(58, 56, 56);
-    transition: 0.5s; 
-}
-
-.card:hover{
-    box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
-    -webkit-box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
-    -moz-box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
-    transition: 0.5s; 
+    color:rgb(14,44,37) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -187,9 +205,39 @@ background-color:rgb(13, 43, 36);
 
 
 #contact{
+    margin-top: 100px;
     margin-left: 20px;
     margin-right: 30px;
     text-decoration: none;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#contact h1{
+    font-weight: 600;
+    color:rgb(14,44,37) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#contact h6{
+    font-weight: 600;
+    color:rgb(14,44,37) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#contact p{
+    
+    font-size: larger;
+    font-weight: 600px;
+    color:rgb(14,44,37) ;
+}
+
+#contact .contactp{
+    
+    font-size: medium;
+    font-weight: 600px;
+    color:rgb(14,44,37) ;
 }
 
 #contact .card1{
@@ -213,45 +261,187 @@ background-color:rgb(13, 43, 36);
     
 }
 
-/* SUBSCRIBE */
+.bt1{
+    margin-top: 20px;
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color:rgb(14,44,37);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+
+}
+
+.bt1:hover{
+    background-color:rgb(62,89,98);
+    transition: 0.5s; 
+}
+
+
+/* NEWS SECTION */
+.news h1{
+    font-weight: 1000;
+    color:rgb(14,44,37) ;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .news{
     margin-top:120px;
-    margin-bottom: 200px;
 }
 
+.news p{
+    
+    font-size: larger;
+    font-weight: 400;
+}
+
+.news input{
+    width: 250px;
+    height: 45px;
+}
+
+.news .newsbtn{
+    margin: 10px;
+    margin-top: 20px;
+    height: 45px;
+    width: 10%;
+    border: none;
+    outline: none;
+    background-color:rgb(14,44,37);
+    color: white;
+    font-weight: 600;
+}
+
+.news .newsbtn:hover{
+    background-color:rgb(62,89,98);
+    transition: 0.5s; 
+}
+
+ /* randon buttons */
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: rgb(58, 56, 56);
+    transition: 0.5s; 
+}
+
+
+.card:hover{
+    box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
+    -webkit-box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
+    -moz-box-shadow: 5px 4px 18px 2px rgb(14,44,37) ;
+    transition: 0.5s; 
+}
 
 /* FOOTER */
 #footer{
-    background-color: rgb(247, 244, 244);
+margin-left: 20px;
 }
 
-#footer svg{
+#footer .footerp{
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 
-height: 40px;
-margin: auto;
+}
+#footer .footerbtn {
+    margin-top: 20px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color:rgb(14,44,37);
+    color: white;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 
+}
+
+#footer .footerbtn:hover{
+    background-color:rgb(62,89,98);
+    transition: 0.5s; 
+}
+
+#footer .category{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(14,44,37);
+    font-weight: 500;
+}
+
+#footer .ct1 li{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
 #footer .card3 h5{
     margin-bottom: 20px;
 }
 
+#footer ul{
+
+list-style-type:none;
+
+}
+
+#footer ul .ulhead{
+    font-weight: 900;
+    }
+    
+#lastline ul{
+    display: flex;
+    }
+    
+#lastline ul li{
+    margin-inline: 10px;
+}
+
+#footer .card-title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: rgb(14,44,37);
+    font-weight: 900;
+    font-size: medium;
+}
 
 
+#footer svg{
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#footer .last1{
+    cursor: pointer; 
+}
 
 
 /* MOBILE RESPONSIVE CSS */
 
-@media only screen and (max-width: 767px){
-    .navbar-toggler{
-        padding: 1px 5px;
-        font-size: 18px;
-        line-height: 0.3;
-        background:#fff;
+@media only screen and (max-width: 768px){
+    .navbar-brand img{
+        height: 50px;
     }
 
     
+    .nav-link{
+        background-color:rgb(14,44,37);
+    }
+    .navbar-toggler button{
+        background-color: #fff;
+    }
     
     #contact .card3 textarea {
         margin-top: 20px;
@@ -263,10 +453,19 @@ margin: auto;
         align-items: center;
     }
 
+
+        /* FOOTER */
     #footer svg{
 
-        height: 20px;
+        height: 15px;
         margin-bottom: 20px;
+    }
+
+
+
+    #footer .last1{
+        height: 25px;
+        margin-bottom: 10px;
     }
     .bt5{
         margin-bottom:180px;
@@ -280,6 +479,30 @@ margin: auto;
         border-style:double;
         font-family:'Times New Roman', Times, serif;
     }
+
+    #footer .category { display:block;
+        position: relative;
+        color: rgb(28, 21, 37);
+        background-color:rgb(201, 195, 200);
+        padding: 4px;
+        margin:10px;
+        text-align: justify;
+    }
+
+    #lastline{
+        font-size: 10px;
+    }
+    #copyright{
+        font-size: 1px;
+    }
+
+
+
+
+
 }
+
+
     
+
 

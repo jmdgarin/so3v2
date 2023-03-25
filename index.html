@@ -14,62 +14,59 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
         <!-- title -->
-    <title>BOOKLORE</title>
+    <title>BOOKLORE | HOME</title>
 
 
 </head>
 <body>
 
 
-                <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
                   <div class="container">
                           <a class="navbar-brand" href="#"><a class="navbar-brand" href="#"><img src="./IMG/mylogo (1).png" alt="" height="80px"> </a></a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                               <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="./index.html">Home</a>
                               </li>
                               <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Shop Now </a>
                                 <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">eBooks</a></li>
-                                  <li><a class="dropdown-item" href="#">Books</a></li>
-                                  <li><a class="dropdown-item" href="#">AudioBooks</a></li>
+                                  <li><a class="dropdown-item" href="./MENUS/shop.html">Books</a></li>
+                                  <li><a class="dropdown-item" href="./MENUS/shop.html">eBooks</a></li>
+                                  <li><a class="dropdown-item" href="./MENUS/shop.html">AudioBooks</a></li>
                                 </ul>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href="#blogsection">Blog</a>
 
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="#">FAQ</a>
+                                <a class="nav-link" href="./MENUS/Faq.html">FAQ</a>
                               </li>
                               
                               
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  About Us  
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Mission</a></li>
-                                  <li><a class="dropdown-item" href="#">Vision</a></li>
-                                  <li><a class="dropdown-item" href="#">Core-Values</a></li>
-                                </ul>
-                              </li>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="./MENUS/about.html">About Us</a>
+                            </li>
+                            
                           </ul>
 
-                            <!-- search bar here -->
+                          <!-- search bar here  -->
                             <form class="d-flex ">
                                 <input class="me-2 search" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn" type="submit">Search</button>
+                                <button class="btn0" type="submit">Search</button>
                             </form>
 
                         </div>
                     </div>
-                </nav>
+                </nav> 
+          
 
 
             <!-- Carousel area start here -->
@@ -84,7 +81,7 @@
                 <div class="carousel-item active">
                   <img src="./IMG/c1.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <button class="bt5">SHOP NOW</button>
+                  <a href="./MENUS/shop.html"> <button class="bt5">SHOP NOW</button> </a>
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -118,7 +115,7 @@
               <div class="col-sm-12 text-center" id="note">
                 <div class="card4">
                   <div class="card-body">
-                    <p class="card-text">FIND YOUR PLACE AT <span style="color: green;"> BOOKLORE</span> ONLINE BOOKSTORE  </p> 
+                    <p class="card-text">FIND YOUR PLACE AT <span style="color:darkslategrey;font-weight:800;"> BOOKLORE</span> ONLINE BOOKSTORE  </p> 
                     <p>Over a million books ready to ship,Also pickup available in most stores!</p>
                   </div>
                 </div>
@@ -133,8 +130,8 @@
               <div class="container ">
                 <div class="row py-5">
                   <div class="col-lg-5">
-                    <i><h1>TRENDING NOW</h1></i>
-                    <p class="fw-bold">Master yourself books</p>
+                    <i><h1>SELF-HELP BOOKS</h1></i>
+                    <p class="noted">Master your emotion</p>
                   </div>
                 </div>
                 <div class="row">
@@ -145,7 +142,7 @@
                         </div>
                       </div>
                       <h6> The Art of Seduction</h6>
-                      <button class="btn6">ADD TO CART</button>
+                    <a href="./MENUS/product.html"> <button class="btn6">ADD TO CART</button> </a>
                       <p>₱ 1,000.00</p>
                   </div>
                   <div class="col-lg-2 text-center">
@@ -202,15 +199,107 @@
                       <p>₱ 1,000.00</p>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col-lg-6 text-center m-auto">
+                    <a href="./GENRE/selfhelp.html" target="_blank">
+                      <button class="searchbtn">Click For More</button>
+                    </a>
+                  </div>
+                </div>
               </div>
         </section>
+
+
+        <!-- FICTION BOOKS -->
+        <section class="product" >
+          <div class="container ">
+            <div class="row py-5">
+              <div class="col-lg-5">
+                <i><h1>FICTION BOOKS</h1></i>
+                <p  class="noted">Window to a new  world</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2 text-center">
+                  <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                      <img src="./FICTION/classofkings.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                    </div>
+                  </div>
+                  <h6> A Clash of Kings</h6>
+                <a href="./MENUS/clash.html"> <button class="btn6">ADD TO CART</button> </a> 
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./FICTION/gatsby.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>
+                <h6> The Great Gatsby</h6>
+                <button>ADD TO CART</button>
+                <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-2 text-center">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="./FICTION/harrypotter.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                </div>
+              </div>
+              <h6> Harry Potter </h6>
+              <button>ADD TO CART</button>
+              <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./FICTION/solitude.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6>100 years of Solitude</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./FICTION/stardust.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6> Stardust</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./FICTION/wrath.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6>The Grapes of Wrath</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 text-center m-auto">
+                <a href="./GENRE/fiction.html">
+                  <button class="searchbtn">Click For More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
 
     <section class="product" >
           <div class="container py-5">
             <div class="row py-5">
               <div class="col-lg-5 m-auto text-center">
                 <h1>BEST SELLING BOOKS</h1>
-                <h6 style="color: violet;"> build yourself more better</h6>
+                <p class="noted"> All time best sellers</p>
               </div>
             </div>
             <div class="row">
@@ -221,6 +310,7 @@
                     </div>
                   </div>
                   <h6> The Art of Seduction</h6>
+                  <button>ADD TO CART</button>
                   <p>₱ 1,000.00</p>
               </div>
               <div class="col-lg-3 text-center">
@@ -230,16 +320,29 @@
                   </div>
                 </div>
                 <h6> 48 Laws of Power</h6>
+                <button>ADD TO CART</button>
                 <p>₱ 1,000.00</p>
               </div>
               <div class="col-lg-3 text-center">
               <div class="card border-0 bg-light mb-2">
                 <div class="card-body">
-                  <img src="./BOOKS/48laws.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  <img src="./alltimebooks/9780007477159-removebg-preview.png" class="img-fluid" alt="" width="200px" height="400px">
                 </div>
               </div>
-              <h6> The Daily Stoic</h6>
+              <h6> A song of Ice and Fire</h6>
+              <button>ADD TO CART</button>
               <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./alltimebooks/710074602_max-removebg-preview.png" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6> Harry Potter Collection</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
               </div>
               <div class="col-lg-3 text-center">
                 <div class="card border-0 bg-light mb-2">
@@ -247,7 +350,40 @@
                     <img src="./BOOKS/21laws.jpg" class="img-fluid" alt="" width="200px" height="400px">
                   </div>
                 </div>  
-                  <h6> The Atomic Habits</h6>
+                  <h6> The 21 Laws  of Leadership</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./BOOKS/wayofsuperiorman.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6> The Way of Superior Man</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./BOOKS/awakenthegiant.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6> Awaken the Giant Within</h6>
+                  
+                  <button>ADD TO CART</button>
+                  <p>₱ 1,000.00</p>
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                  <div class="card-body">
+                    <img src="./BOOKS/themountainis.jpg" class="img-fluid" alt="" width="200px" height="400px">
+                  </div>
+                </div>  
+                  <h6> The Mountain is You</h6>
                   
                   <button>ADD TO CART</button>
                   <p>₱ 1,000.00</p>
@@ -256,7 +392,7 @@
             <div class="row">
               <div class="col-lg-6 text-center m-auto">
                 <a href="./MENUS/shop.html" target="_blank">
-                  <button class="btn1">Click For More</button>
+                  <button class="searchbtn">Click For More</button>
                 </a>
               </div>
             </div>
@@ -266,43 +402,62 @@
 
 
 
+    
 <!-- BLOG SECTION -->
+  <section id="blogsection">
     <div class="row g-0 bg-body-secondary position-relative mt-5 mb-5">
       <div class="col-md-6 mb-md-0 p-md-4">
-        <img src="./IMG/SAMPLE.png" class="w-100" alt="...">
+        <img src="./IMG/robert.jpg" class="w-100" alt="...">
       </div>
       <div class="col-md-6 p-4 ps-md-0">
-        <h5 class="mt-0">Columns with stretched link</h5>
-        <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-        <a href="#" class="stretched-link">Go somewhere</a>
+        <h6>Featured Author</h6>
+        <h5>ROBERT GREENE</h5>
+        <p>Robert Greene is a well-known author and speaker, best known for his books on strategy, power, and human nature. Born in Los Angeles in 1959, Greene worked various jobs before finding success as a writer in his early 30s. His first book, "The 48 Laws of Power," published in 1998, quickly became a bestseller and established Greene as an authority on power and strategy.</p>
+        <p>Robert Greene is a well-known author and speaker, best known for his books on strategy, power, and human nature. Born in Los Angeles in 1959, Greene worked various jobs before finding success as a writer in his early 30s. His first book, "The 48 Laws of Power," published in 1998, quickly became a bestseller and established Greene as an authority on power and strategy.</p>
+        <p>Robert Greene is a well-known author and speaker, best known for his books on strategy, power, and human nature. Born in Los Angeles in 1959, Greene worked various jobs before finding success as a writer in his early 30s. His first book, "The 48 Laws of Power," published in 1998, quickly became a bestseller and established Greene as an authority on power and strategy.</p>
+        <a href="https://www.britannica.com/biography/Robert-Greene" class="stretched-link" target="_blank">LEARN MORE</a>
       </div>
     </div>
+  </section>
+
+  <section id="blogsection">
+    <div class="row g-0 bg-body-secondary position-relative mt-5 mb-5">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="./IMG/maxresdefault.jpg" class="w-100" alt="...">
+      </div>
+      <div class="col-md-6 p-4 ps-md-0">
+        <h6>10 Benefits of Reading: Why You Should Read Every Dayr</h6>
+        <h5>Written by Catherine Winter</h5>
+        <p>Introduction: Reading books is an important activity that can provide many benefits for people of all ages. From improving cognitive function to reducing stress and improving empathy, the benefits of reading are numerous. In this blog post, we will explore some of the reasons why reading books is so important, as well as provide some helpful links to resources that can help you get started on your reading journey.</p>
+        <a href="https://www.lifehack.org/articles/lifestyle/10-benefits-reading-why-you-should-read-everyday.html" class="stretched-link" target="_blank">LEARN MORE</a>
+      </div>
+    </div>
+  </section>
 
 
-
-
+  
     <!-- CONTACT SECTION -->
 
 <div class="row" id="contact">
   <div class="col-sm-12 text-center m-auto mb-5 mt-5">
     <div class="card3">
       <div class="card-body">
-       <h1>CONTACT US</h1>
-       <p> Send your message</p>
+      <h1>CONTACT</h1>
+      <p> Connect with us</p>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="card1">
       <div class="card-body">
-                <h6>LOCATION</h6>
-                <p>Atimonan Quezon 4331</p>
-           
+                <h6> MAIN OFFICE</h6>
+                <p class="contactp"> Rizal St. Zone 1 Atimonan, Quezon  PHILIPPINES 4331</p>
+
                 <h6>PHONE</h6>
-                <a href="tel: 09123456789"> <p>+ (639) 123 456 789</p> </a>
+                <a href="tel: 09123456789"> <p class="contactp">+ (639) 123 456 789</p> </a>
               
                 <H6> Email</H6>
-                <p> <a href="mailto:jm.garin18@gmail.com">jm.garin18@gmail.com</a></p>
+                <a href="mailto:jm.garin18@gmail.com"> <p class="contactp"> bookloreph2023@gmail.com</p> </a>
       </div>
     </div>
   </div>
@@ -310,15 +465,15 @@
   <div class="col-sm-4">
     <div class="card2">
       <div class="card-body">
-        <input type="text" class="form-control bg-light" placeholder="First Names">
-        <input type="text" class="form-control bg-light mt-3" placeholder= "Last Names">
+        <input type="text" class="form-control bg-light" placeholder="First Name">
+        <input type="text" class="form-control bg-light mt-3" placeholder= "Last Name">
       </div>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="card3">
       <div class="card-body">
-        <textarea name=""  class="form-control bg-light " placeholder="Your Message Here"  id="" cols="10" rows="6"></textarea>
+        <textarea name=""  class="form-control bg-light " placeholder="Your Message Here..."  id="" cols="10" rows="6"></textarea>
         <button class="bt1">SUBMIT</button>
       </div>
     </div>
@@ -331,16 +486,20 @@
 
 <section class="news py-5">
   <div class="container">
-    <div class="row">
-        <div class="col-lg-9 m-auto text-center">
+    <div class="col">
+        <div class="col-lg-6 m-auto text-center">
           <h1>NEWSLETTER</h1>
-          <p>Let's keep in touch</p>
-          <input type="text" placeholder="Type your Email">
-          <button class="bt2">SUBSCRIBE</button>
+          <p>SIGN UP FOR SAVINGS, NEWS, AND UPDATES</p>
+          <input type="text" placeholder="example@gmail.com">
+        </div>
+        <div class="col-lg-6 m-auto text-center">
+          <button class="bt1">SUBSCRIBE</button>
         </div>
     </div>
   </div>
-</section>
+</section> 
+
+
 
 
 
@@ -351,53 +510,109 @@
     <div class="col-sm-4">
       <div class="card1">
         <div class="card-body">
-          <h5 class="card-title">LOGO HERE</h5>
-          <p class="card-text mt-5">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="row1">
+            <a href="./index.html">  <img src="./IMG/whitelogo2.png" alt="" height="90px"></a>
+            </div>
+            <div class="row1">
+              <input type="text" placeholder="Search Store Location">
+              <button class="footerbtn">Enter</button>
+              <p class="footerp"><span style="color: green;"> <b> BOOKLORE </b></span> has over 100 stores throughout the Philippines. Find a bookstore near you using our store locator. You can also find information on store events (and virtual events), store hours and more.</p>
+            </div>
           
         </div>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="card2">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      
+      <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card2">
+            <div class="card-body">
+              <h6 class="category">ABOUT US</h6>
+              <ul class="ct1">
+            <a href="./MENUS/about.html"> <li>About Booklore</li> </a>
+              <li> Program</li>
+              <li>Educator</li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+        <div class="col-sm-4">
+          <div class="card2">
+            <div class="card-body">
+              <h6 class="category">QUICK HELP</h6>
+              <ul class="ct1">
+                  <li>Help Center</li>
+                  <li>Store Pickup</li>
+                  <li>Shipping</li>
+                  <li>Giftcards</li>
+                </ul>           
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card2">
+            <div class="card-body">
+              <h6 class="category">CATEGORY</h6>
+              <ul class="ct1">
+               <a href="./MENUS/shop.html">  <li>Books</li></a> 
+                  <li>Ebooks</li>
+                  <li>Audiobooks</li>
+                </ul>           
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
     </div>
 
-    <!-- footer follow us link -->
+  <!-- footer follow us link -->
     <div class="col-sm-4">
       <div class="card3">
-        <div class="card-body">
+        <div class="row3">
           <h5 class="card-title">FOLLOW US</h5>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" ><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" /></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+        <a href="https://www.facebook.com/">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" ><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" /></svg></a>
+        <a href="https://www.instagram.com/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a> 
+        <a href="https://twitter.com/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a> 
+        <a href="https://www.tiktok.com/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg> </a> 
         </div>
-        <div class="card-body mt-5">
-          <h5 class="card-title text-center">FOLLOW US</h5>
-          <p class="text-center">YOU CAN PAY THRU </p>
+        <div class="row4">
+          <h5 class="card-title mt-3">YOU CAN PAY THRU</h5>
 
-          <img src="./PAYMENTS/GCash_Horizontal-Full-Blue-Transparent.png" alt="" height="50px" class="">
-          <img src="./PAYMENTS/Paymaya-Logo.png" alt="" height="50px">
-          <img src="./PAYMENTS/Paypal-Logo-2007.png" alt="" height="50px">
+          <img src="./PAYMENTS/GCash_Horizontal-Full-Blue-Transparent.png" alt="" height="50px" class="last1">
+          <img src="./PAYMENTS/Paymaya-Logo.png" alt="" height="50px" class="last1">
+          <img src="./PAYMENTS/Paypal-Logo-2007.png" alt="" height="50px" class="last1" >
         </div>
 
       </div>
     </div>
     <hr>
-    <div class="col-sm-12 text-center">
+
+
+
+    <div class="col-sm-8 " id="lastline">
       <div class="card4">
         <div class="card-body">
-          <p class="card-text">COPYRIGHT 2023 | CREATED BY JM</p> 
+          <ul>
+            <li>Terms of Use</li>
+            <li>Copy Rights and Trademark</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 text-center">
+      <div class="card4">
+        <div class="card-body">
+          <p class="card-text"  style="font-weight: bold; font-family: 'Times New Roman', Times, serif;" id="copyright" > © BOOKLORE INC. COPYRIGHT 2000-2023 | CREATED BY JM</p> 
         </div>
       </div>
     </div>
   </div>
-  
+
 
 
 
